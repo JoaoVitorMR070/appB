@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "meu-projeto",
+    "slug": "meu-projeto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.contaproisional.meuprojeto"
+    },
+    "android": {
+      "package": "com.contaproisional.meuprojeto",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.jpeg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9874ce6d-a334-41a5-a550-29ac6ce9660a"
+      }
+    }
+  }
+}
